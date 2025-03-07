@@ -19,7 +19,7 @@ public class PickleCraftEvents {
 	public static void onEntityJoinWorld(EntityJoinLevelEvent event) {
 		
 		Entity entity = event.getEntity();
-		if (entity.getType() != EntityType.PLAYER) {
+		if (entity.getType() != EntityType.PLAYER && entity.getType() != EntityType.ITEM) {
 			event.setCanceled(true); //Stop entities from spawning
 		}
 	}

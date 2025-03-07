@@ -12,8 +12,8 @@ public class PickleCraftCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> PickleCraftItems.EXAMPLE_ITEM.get().getDefaultInstance())
+            .icon(() -> PickleCraftItems.ROCK.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                output.accept(PickleCraftItems.EXAMPLE_ITEM.get());
+                output.accept(PickleCraftItems.ROCK.get());
             }).build());
 }

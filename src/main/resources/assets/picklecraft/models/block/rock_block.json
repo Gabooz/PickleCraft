@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "picklecraft:block/rock_block_texture",
+		"particle": "picklecraft:block/rock_block_texture"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [10, 3, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 7]},
+			"faces": {
+				"north": {"uv": [6, 0, 12, 3], "texture": "#1"},
+				"east": {"uv": [6, 6, 11, 9], "texture": "#1"},
+				"south": {"uv": [6, 3, 12, 6], "texture": "#1"},
+				"west": {"uv": [6, 9, 11, 12], "texture": "#1"},
+				"up": {"uv": [6, 5, 0, 0], "texture": "#1"},
+				"down": {"uv": [6, 5, 0, 10], "texture": "#1"}
+			}
+		}
+	]
+}
