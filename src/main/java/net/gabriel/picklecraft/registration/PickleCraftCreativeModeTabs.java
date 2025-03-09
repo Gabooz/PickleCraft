@@ -15,5 +15,7 @@ public class PickleCraftCreativeModeTabs {
             .icon(() -> PickleCraftItems.ROCK.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(PickleCraftItems.ROCK.get());
+                output.accept(PickleCraftItems.FURNACE_MASTER.get());
+                output.accept(PickleCraftItems.IRON_FURNACE_ITEM.get());
             }).build());
 }

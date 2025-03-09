@@ -1,4 +1,7 @@
 {
 	"item.picklecraft.rock": "Rock",
-	"block.picklecraft.rock_block": "Rock"
+	"item.picklecraft.furnace_master": "Furnace Master",
+	"block.picklecraft.rock_block": "Rock",
+	"block.picklecraft.iron_furnace": "Iron Furnace",
+	"block.picklecraft.iron_furnace_item": "Iron Furnace"
 }
