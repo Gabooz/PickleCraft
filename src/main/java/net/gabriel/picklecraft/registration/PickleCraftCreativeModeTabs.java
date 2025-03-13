@@ -17,5 +17,6 @@ public class PickleCraftCreativeModeTabs {
                 output.accept(PickleCraftItems.ROCK.get());
                 output.accept(PickleCraftItems.FURNACE_MASTER.get());
                 output.accept(PickleCraftItems.IRON_FURNACE_ITEM.get());
+                output.accept(PickleCraftItems.BARREL_ITEM.get());
             }).build());
 }

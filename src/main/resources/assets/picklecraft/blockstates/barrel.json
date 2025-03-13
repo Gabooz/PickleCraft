@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "picklecraft:block/picklecraft_barrel"},
+		"facing=east": { "model": "picklecraft:block/picklecraft_barrel", "y": 90},
+		"facing=south": { "model": "picklecraft:block/picklecraft_barrel", "y": 180},
+		"facing=west": { "model": "picklecraft:block/picklecraft_barrel", "y": 270}
+	}
+}
