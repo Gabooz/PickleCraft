@@ -20,7 +20,7 @@ public class PickleCraftItems {
     public static final RegistryObject<Item> ROCK = ITEMS.register("rock", () -> new BlockItem(PickleCraftBlocks.ROCK_BLOCK.get(), new Item.Properties()));
     
     public static final RegistryObject<Item> IRON_FURNACE_ITEM = ITEMS.register("iron_furnace_item", () -> new BlockItem(PickleCraftBlocks.IRON_FURNACE.get(), new Item.Properties()));
-    public static final RegistryObject<Item> BARREL_ITEM = ITEMS.register("barrel_item", () -> new BlockItem(PickleCraftBlocks.BARREL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> BARREL_ITEM = ITEMS.register("barrel_item", () -> new BlockItem(PickleCraftBlocks.PICKLECRAFT_BARREL.get(), new Item.Properties()));
     
     public static final RegistryObject<Item> FURNACE_MASTER = ITEMS.register("furnace_master", () -> new FurnaceMaster(new Item.Properties()));
     
